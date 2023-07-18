@@ -8,7 +8,7 @@ const App = () => {
     const { name, value } = e.target;
     if (name === 'color1') {
       setColor1(value);
-    } else if (name === 'color2') {
+    } else if (name === 'color2') {3
       setColor2(value);
     }
     applyGradient(); 
